@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #003366;
+    text-align: center;
+    padding: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    padding: 14px;
+}
+.menu a:hover{
+    background-color: #0055cc;
+}
+.sec1{
+    background-image: url("../images/c1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+.sec1 h1{
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.sec1 p{
+    margin-top: 10px;
+    color: #272727;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.sec2{
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 70px;
+    text-align: center;
+}
+.sec2 .caixa{
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 280px;
+    width: 350px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.caixa img{
+    height: 160px;
+    width: 200px;
+    border: 10px;
+}
+.caixa h2{
+    margin-top: 10px;
+}
+.sec3{
+    padding: 50px;
+}
+.caixaImg{
+    display: inline-block;
+}
+.caixaImg img{
+    width: 520px;
+    border-radius: 10px;
+}
+.caixaText{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-left: 60px;
+    text-align: justify;
+}
+.caixaText h2{
+    color: #003366;
+}
+.caixaText p{
+    margin-top: 15px;
+    color: #555555;
+}
+footer{
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+footer a:hover{
+    color: #cccccc;
+}
